@@ -226,6 +226,7 @@ footer {
   main {
     grid-template-columns: 1fr;
     margin-top: 10px;
+    text-align: center;
   }
 
   h1 {
@@ -269,14 +270,14 @@ footer {
   div.b-highschool,
   div.b-coll {
     float:none;
-    display:block;
+    /* display:block; */
     width: 100%;
   }
 
   img.elementary,
   img.highschool,
   img.college {
-    display:block;
+    /* display:block; */
     width: 100%;
     height: 50%;
   }
@@ -286,9 +287,9 @@ footer {
 
 
   img.assessment {
-    display:block;
+    /* display:block; */
     height: 50%;
-    width: 90%;
+    width: 100%;
   }
 
   footer {
