@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(120deg, #359df3, #8866e7, #ed3a58);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', tahoma;
+  }
+
+
+main {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

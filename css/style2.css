@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg, #359df3, #8866e7, #ed3a58);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Poppins', tahoma;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  color: blue;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+}
+nav ul li a:after {
+  content: '';
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: pink;
+}
+
+div.a {
+  text-align: center;
+}
+
+img.a {
+  border-radius: 5%;
+  border: 5px dotted #fff;
+  padding: 5px;
+  max-width: 250px;
+  max-height: 250px;
+}
+p.name {
+  font-size: 30px;
+  color: blue;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Purple Purse', cursive;
+}
+p.web {
+  font-size: 18px;
+  font-family: 'Imperial Script', cursive;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Purple Purse', cursive;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  /* border: 0px solid #fff; */
+  background: linear-gradient(120deg, #fd4765d5 20%, #7644ff 40%, #1c99fe 60%);
+  font-family: 'EB Garamond', serif;
+  font-family: 'Imperial Script', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Purple Purse', cursive;
+}
+
+div.b {
+  text-align: center;
+  padding-left: 6px;
+}
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-family: 'Imperial Script', cursive;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Purple Purse', cursive;
+  letter-spacing: 5px;
+  color: rgb(20, 1, 199);
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+/* p.text {
+  text-align: left;
+} */
+
+/* figcaption {
+  text-align: center;
+} */
+
+.grade {
+  font-size: 20px;
+  font-style: italic;
+  background: linear-gradient(
+    90deg,
+    #f18597 20.69%,
+    #845eef 30.19%,
+    #1c99fe 79.69%
+  );
+}
+
+.performance {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  background: linear-gradient(
+    90deg,
+    #f18597 20.69%,
+    #845eef 30.19%,
+    #1c99fe 79.69%
+  );
+}
+
+img.elementary,
+img.highschool,
+img.college {
+  width: 50%;
+  padding-right: 0px;
+  border: hsla(240, 94%, 32%, 0.808) double;
+}
+
+div.b-elem,
+div.b-highschool,
+div.b-coll {
+  width: 50%;
+  float: right;
+}
+
+img.assessment {
+  height: 40%;
+  width: 45%;
+  border: 4px double yellow;
+  border-radius: 20px;
+  border-width: 4px;
+  margin: 5px 5px;
+  padding: 5px;
+}
+
+/* Contact Me */
+div.social {
+  border: 0px solid #fff;
+  float: left;
+}
+img.social {
+  width: 30px;
+  border: 1px solid #fff;
+}
+
+div.media {
+  border: 0px solid #fff;
+  float: left;
+  color: white;
+}
+section {
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 60px;
+}
+input {
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Tahoma;
+}
+input.a {
+  border-radius: 5px;
+  width: 100%;
+  height: 400px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Tahoma;
+  padding: 10px;
+}
+button {
+  border-radius: 5px;
+  width: 100%;
+  height: 25px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Tahoma;
+  color: rgb(255, 2, 2);
+}
+
+a {
+  color: white;
+}
+
+footer {
+  align: bottom;
+  text-align: center;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 10.69%,
+    #7644ff 40.19%,
+    #fd4766 79.69%
+  );
+  /* padding: 10px 100px; */
+  border: 1px solid #fff;
+  /* width: 100%;
+  height: 50px; */
+}
+
+/* for mobile */
+@media screen and (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  nav {
+    font-size: 23px;
+    padding: 20px 100px;
+  }
+
+  img.a {
+    border-radius: 8%;
+    border: 8px dotted #fff;
+    max-width: 280px;
+    max-height: 280px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  p.name {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+
+  .grade {
+    font-size: 30px;
+  }
+
+  div.b-elem,
+  div.b-highschool,
+  div.b-coll {
+    float:none;
+    display:block;
+    width: 100%;
+  }
+
+  img.elementary,
+  img.highschool,
+  img.college {
+    display:block;
+    width: 100%;
+    height: 50%;
+  }
+
+  /* experience page */
+  
+
+
+  img.assessment {
+    display:block;
+    height: 50%;
+    width: 90%;
+  }
+
+  footer {
+    /* padding: 10px 100px; */
+    border: 1px solid #fff;
+    width: 100%;
+    /* height: 50px; */
+  }
+
+  footer p {
+    font-size: 18px;
+  }
+}
+
+/* laptop 1440px */
